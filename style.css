@@ -1,0 +1,133 @@
+header{
+    background-image: url(img/wellc.jpeg);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-origin: border-box;
+    width:100%;
+}
+
+ html, body {
+            padding:0px;
+            margin:0px;
+/*
+     margin-left:2px;
+     margin-right: 15px;
+*/
+
+}
+    
+body{
+     background-color: rgba(51, 102, 255,0.5);
+        }
+li a{
+    font-family: serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: -5px;/*makes text at center */
+    
+}
+ul{
+    height:30px;
+    background-color: #85f4d2;
+   list-style-type: none;
+   margin-top:2px;
+} 
+li{
+    display: inline;
+}
+a.signup{
+   float:right;
+    margin:10px;
+   padding-right:40px;
+    margin-top: 3px;
+}
+a.leftmenu{
+    float:left;
+    padding:10px;
+}
+a:hover{
+    background-color: rgba(0,0,255,0.3);
+}
+a:active{
+    color:white;
+    background-color: blueviolet;
+}
+
+#content{
+/*    background-color:rgba(153, 51, 255,0.1);*/
+    background: linear-gradient(violet,pink);
+    height:500px;
+    width:950px;
+    float:left;
+    margin: 0px;
+    margin-left: 5px;
+    padding: 10px;
+}
+#about{
+    background: radial-gradient(white,grey);
+    height: 300px;
+    width:300px;
+    float:right;
+    margin-top:0px;
+}
+#content2{
+/*    background-color:pink;*/
+    background:rgba(255, 0, 102,0.7);
+    height:520px;
+    width:950px;
+    float:left;
+    margin: 10px;
+    padding:9px;
+    margin-left: 5px;
+    
+}
+#about2{
+    background: radial-gradient(red 40%, yellow ,red );
+    height:440px;
+    width:300px;
+    float:right;
+    margin-top:-200px;
+    
+}
+#followMe{
+    background:  linear-gradient(#66ff33,#ccff33);
+    width:300px;
+    height:248px;
+    float:right;
+    margin-top:40px;
+    border-style:ridge;
+    border-width: 8px;
+}
+
+#footer{
+    background-color:pink;
+    height:70px;
+    width:97%;
+    float:left;
+    margin: 10px;
+    padding: 10px;
+} 
+.aboutimg{
+   
+    border-width: 10px;
+    height:200px;
+    width:200px;
+    border-radius: 100px;
+}
+.opencontent{
+    font-size:20px;
+    text-align: center;
+}
+.girl{
+    width:940px;
+    height:380px;
+}
+.upload{
+    text-align: center;
+    font-size: 20px;
+}
+.gallery{
+    border: 2px ridge;
+}
